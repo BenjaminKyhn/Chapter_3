@@ -12,8 +12,6 @@ public class Exercise_3_1 {
         double r1 = ((-b + Math.pow(d, 0.5)) / 2 * a);
         double r2 = ((-b - Math.pow(d, 0.5)) / 2 * a);
 
-        System.out.println("test");
-
         if (d > 0)
             System.out.println("The equation has two roots " + r1 + " and " + r2);
         else if (d == 0)
